@@ -8,12 +8,12 @@ variable "aws_region" {
 
 variable "instance-type" {
   description = "Tipo de instancia EC2 (usa t2.micro para Free Tier)"
-  type = string
-  default = "t2.micro"
+  type        = string
+  default     = "t2.micro"
 }
 
 variable "nombre_proyecto" {
   description = "Prefijo para las etiquetas de los recursos"
-  type = string
-  default = "terraform-lab"
+  type        = string
+  default     = "terraform-lab"
 }
